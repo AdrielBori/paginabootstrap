@@ -1,0 +1,53 @@
+.carousel-inner{
+    max-height:35rem;
+}
+footer{
+    background-color: rgb(32, 32, 36);
+    min-height: 100px;
+}
+footer p{
+    color: aliceblue;
+    text-align: center;
+}
+#redes i{
+    font-size: 25px;
+    padding: 0 6px;
+    color: aliceblue;
+}
+#NombreE{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: slategrey 5px 3px;
+    
+    
+}
+#page__menu{
+    background-image: url("../imagenes/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:70vh;
+}
+#page__menu-q{
+    background-image: url("../imagenes/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:70vh;
+}
+#menu__g{
+    background-color: black;
+    height: 80vh;
+}
+#G-div{
+    height: auto;
+
+
+}
+@media (max-width:768px) {
+    #page__menu-q{
+        background-image: url("../imagenes/1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        height:80vh;
+    }
+    
+}
